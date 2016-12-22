@@ -1,0 +1,178 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .s-images i{
+        font-size: 130px;
+    }
+    
+    .s-images{
+        margin-top: -50px;
+    }
+    
+    .map{
+        margin-left: 15px;
+        width: 100%;
+    }
+    .google{
+        margin-left: 15px;
+    }
+
+    .blog-image img{
+        height: 260px;
+
+    }
+
+    .blog-image.full-post{
+
+
+    }
+
+    .full-post img{
+
+        min-height: 200px;
+
+    }
+
+    .text-left3{
+        width: 174%;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .latest{
+        text-align: center;
+        position: relative;
+        display:inherit;
+    }
+
+    #comment{
+        min-width: 90%;
+        max-width: 80%;
+    }
+
+     .text-left{
+         width: 74%;
+      }
+
+    .text-left2{
+        width: 74%;
+    }
+
+    .text-left3{
+        width: 74%;
+    }
+    
+    .s-images{
+        padding-left: 25px;
+        font-size: 100px;
+        margin-top: 0px;
+    }
+    
+    .social{
+        right: 50%;
+        margin-right: -120px;
+    }
+    
+    .social i{
+        margin-left: 40px;
+        
+    }
+    
+    .contact-page input{
+        width: 100%;
+    }
+    
+    #area{
+        width: 100%;
+    }
+    .we{
+       padding-right: 45px;
+        margin-top: -40px;
+    }
+    .map{
+        
+    }
+    
+    .google{
+        margin-left: 15px;
+        margin-bottom: 40px;
+    }
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .latest{
+        text-align: left;
+        position: relative;
+        display:block;
+    }
+
+    #comment{
+        min-width: 85%;
+        max-width: 80%;
+    }
+
+     .text-left{
+        width: 68%;
+    }
+    
+    .news{
+        margin-left: 20px;
+    }
+    
+    .s-images i{
+        font-size: 60px
+    }
+    
+    .s-images{
+        padding-left: 50px;
+        margin-top: -40px;
+    }
+
+    .blog-image img{
+        height: 170px;
+
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
